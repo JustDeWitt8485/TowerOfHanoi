@@ -7,6 +7,14 @@ position: relative;
 margin-left: 40%;
 }
 
+h2{
+position: relative;
+margin-left: 70%;
+
+}
+
+
+
 #container {
   display: block;
   height: 820px;
@@ -38,6 +46,7 @@ margin-left: 40%;
   justify-content: center;
   width: 25%; 
   background-color: black;
+  color: aliceblue;
 }
 
 .disc {
