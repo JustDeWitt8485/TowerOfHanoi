@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tower Of Hanoi</title>
+</head>
+
+<body>
+    <h1>Tower of Hanoi</h1>
+    <div id="winner"></div>
+    <div id="container">
+        <div class="main" id="game">
+            <div class="tower" id="A">
+                <div class="disc" data-disc="4" id="discFour"></div>
+                <div class="disc" data-disc="3" id="discThree"></div>
+                <div class="disc" data-disc="2" id="discTwo"></div>
+                <div class="disc" data-disc="1" id="discOne"></div>
+            </div>
+            <div class="tower" id="B"></div>
+            <div class="tower" id="C"></div>
+            <div id="hand"></div>
+            <div class="bottom"></div>
+        </div>
+    </div>
+    <script src="towerOfHanoi.js"></script>
+</body>
+
+
+</html>

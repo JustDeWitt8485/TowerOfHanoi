@@ -1,0 +1,80 @@
+:root {
+  box-sizing: border-box;
+}
+
+h1 {
+position: relative;
+margin-left: 40%;
+}
+
+#container {
+  display: block;
+  height: 820px;
+  width: 1000px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+.main{
+  display: flex;
+  height: 700px;
+  width: 1000px;
+  background-color: lightslategray;
+}
+
+.tower {
+  display: flex;  
+  flex-grow: 1;
+  align-items: center;
+  border:2px double black;
+  flex-direction: column-reverse;
+  width: 25%;
+}
+
+#hand {
+  display: block;
+  width: 25%; 
+  background-color: black;
+  
+
+}
+
+.disc {
+  height: 100px;
+  border: 100px soild #444;
+  border-radius: 100%;
+}
+
+#discOne {
+width: 100px;
+background-color: orangered;
+}
+
+#discTwo{
+width: 140px;
+background-color: rgba(0, 128, 0, 0.603);
+}
+
+
+#discThree{
+width: 180px;
+background-color: blue
+}
+
+
+
+#discFour{
+width: 210px;
+background-color:red;
+}
+
+
+  
+  
+  
+  
+  
+  
+  
+  
