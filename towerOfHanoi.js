@@ -12,6 +12,7 @@ function selectTower(evt) {
     let hold = document.getElementById("hand");
     if (selectedDiscMove === true) {
         // pickup
+
         selectedDisc = selectedTower.lastElementChild
         hold.appendChild(selectedDisc)
 
@@ -24,11 +25,13 @@ function selectTower(evt) {
         let holdDisc = hold.lastElementChild
         console.log(selectedDisc.clientWidth)
         if (selectedTower.lastElementChild === null) {
+
             selectedTower.appendChild(holdDisc)
             selectedDiscMove = true
 
         }
         else if (holdDisc.clientWidth < selectedTower.lastElementChild.clientWidth) {
+
             selectedTower.appendChild(holdDisc)
             selectedDiscMove = true
         }

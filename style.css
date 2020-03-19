@@ -33,7 +33,9 @@ margin-left: 40%;
 }
 
 #hand {
-  display: block;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
   width: 25%; 
   background-color: black;
   
